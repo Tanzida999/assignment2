@@ -52,17 +52,40 @@ nav a {
 }
 .sec1{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/group-13.png');
-    background-repeat: no-repeat;
-flex-direction: column;
-    width: 60%; 
-    height: 400px;
-    padding-top: 10px;
+    width: 1170px;
     height: 500px;
-    width: 50%;
-    padding-left: 70px;
-
-
+    flex-shrink: 0;
+    border-radius: 16px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.sec1 h2{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.sec1 p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 } 
+.form1{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
 .sec2{
     display: flex;
 }
@@ -71,6 +94,7 @@ flex-direction: column;
     height: 500px;
     width: 50%;
     padding-left: 70px;
+    padding-bottom: 10px;
 }
 .sec2right{
     padding-top: 10px;
@@ -85,9 +109,19 @@ flex-direction: column;
     gap: 20px;
    
 }
+.sec1{
+    display:grid ;
+}
+.form1{flex-direction: column;}
 .sec2{
     flex-direction: column;
 
+}
+.sec3{
+
+    height: 800px;
+    width: 600px;
+    align-items: center;
 }
 
 }
