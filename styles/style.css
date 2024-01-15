@@ -8,6 +8,15 @@ body {
     margin-left: 20px;
 
 }
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -49,9 +58,20 @@ nav a {
 
 
 } 
-@media screen and(min-width:600px) {
-nav{
-    
+.sec2left{
+    padding-top: 10px;
+    height: 500px;
+    width: 50%;
+    padding-left: 10px;
+}
+@media screen and(max-width:576px) {
+.header{
+    display: grid;
+    gap: 20px;
+   
+}
+.sec1{
+    display: grid;
 }
     
 }
