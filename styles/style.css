@@ -194,33 +194,33 @@ font-weight: 400;
     display: grid;
     margin-top: 10px;
 }
-
 .sec51{
    
-        background:url('../Images/Group\ 39.png');
-        background-repeat: no-repeat;
-        width: 920px;
-        height: 300px;
-        flex-shrink: 0;
-        border-radius: 16px;
-        align-items: right;
-        justify-content: center;
-        padding-top: 20px;
-        padding-left: 200px;
-        padding: 100px;
-        
-    
-}
-.sec51 form{
-    
-    width: 479px;
-    height: 200px;
+    background:url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 920px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
+    align-items: right;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding: 100px;
+    
+
 }
+.sec51 form{
+
+width: 479px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+
 .sec7{
     display: flex;
     align-items: center;
@@ -447,15 +447,49 @@ font-weight: 400;
 .sec5{
     width: 335px;
 }
+
 .sec51{
+   
+    background:url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
     width: 335px;
-height: 500px;
-flex-shrink: 0;
+    height: 483px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+
 }
 .sec51 form{
-    width: 303px;
-height: 297px;
+
+width: 370px;
+height: 200px;
 flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+.sec6{
+    display: flex;
+}
+.r6{
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    height: 500px;
+    width: 50%;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.sec6right{
+    padding-top: 10px;
+    height: 500px;
+    width: 50%;
+    padding-left: 10px;
+    align-items: end;
 }
 
 .sec7 {
