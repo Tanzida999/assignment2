@@ -224,11 +224,15 @@ nav a {
 }
 
 .sec7left,.sec7right {
+    width: 335px;
+    height: 353px;
+    flex-shrink: 0;
     display: grid;
     width: 100%;
     padding: 0;
     text-align:left;
     margin-bottom: 20px;
 }
+
 
 }
