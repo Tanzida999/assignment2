@@ -4,6 +4,9 @@ body {
     justify-content: center;
 
 }
+.header{
+    display: flex;
+}
 .text-primary {
     color: #FD6E0A;
     margin-left: 20px;
@@ -23,6 +26,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
 }
 .icon{
     margin-left:2px;
@@ -63,20 +70,20 @@ nav a {
 }
 .sec1 h2{
     color: #FFF;
-font-family: Mulish;
-font-size: 64px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .sec1 p{
     color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
 } 
 .form1{
     display: inline-flex;
@@ -104,16 +111,15 @@ line-height: 26px; /* 162.5% */
     align-items: end;
 }
 .sec3{
-
     width: 1440px;
-    height: 6940px;
+    /* height: 6940px; */
 }
 .sec3 p{
     width: 643px;
 }
 .sec4{
     width: 1440px;
-    height: 6940px;
+    /* height: 6940px; */
 }
 .sec4_1{
     width: 573px;
@@ -143,15 +149,58 @@ line-height: 26px; /* 162.5% */
 .form2{
     display: grid;
 }
-
-
-@media screen and (max-width:600px) {
-.header{
-    display: grid;
-    gap: 20px;
-   
+.sec7{
+    display: flex;
+    align-items: center;
 }
-.sec1{
+.sec7 input{
+
+    height: 40px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 1px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+
+}
+.sec7left{
+    padding-top: 10px;
+    height: 500px;
+    width: 50%;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.sec7right{
+    padding-top: 10px;
+    height: 500px;
+    width: 50%;
+    padding-left: 10px;
+    align-items: end;
+}
+
+
+
+
+/* Responsive */
+@media screen and (max-width:600px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 60px; 
+        z-index: 1;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+    .sec1{
     width: 335px;
     height: 483px;
     flex-shrink: 0;
@@ -163,6 +212,23 @@ line-height: 26px; /* 162.5% */
     flex-direction: column;
 
 }
+.sec2left,.sec2right{
+    width: 100%;
+    padding: 0; 
+    text-align: center; 
+    margin-bottom: 5px;
+}
+.sec7 {
+    flex-direction: column;
 
+}
+
+.sec7left,.sec7right {
+    display: grid;
+    width: 100%;
+    padding: 0;
+    text-align:left;
+    margin-bottom: 20px;
+}
 
 }
